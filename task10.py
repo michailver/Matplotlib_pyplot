@@ -8,8 +8,8 @@ subjects = ['Math', 'Science', 'History', 'Art', 'PE']
 scores =      [85, 90, 78, 92, 88]
 study_hours = [10, 15, 12, 18, 20]
 
-bar_width = 0.4
-x = np.arange(len(subjects))
+# bar_width = 0.4
+# x = np.arange(len(subjects))
 
 fig, ax1 = plt.subplots(figsize=(10, 6))
 ax1.bar(subjects, scores, color='skyblue', label='scores')
